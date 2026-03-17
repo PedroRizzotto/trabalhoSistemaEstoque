@@ -4,4 +4,5 @@ class Cliente:
         self.nome = nome
 
     def __str__(self):
-        return f"Cliente(id_cliente={self.id_cliente}, nome='{self.nome}', email='{self.email}')"
+        return f"Cliente(id_cliente={self.id_cliente}, nome='{self.nome}')"
+    
